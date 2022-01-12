@@ -39,3 +39,4 @@ jobs:
           executable_compression: upx
           overwrite: TRUE
           sha256sum: TRUE
+          release_tag: v1
