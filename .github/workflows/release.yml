@@ -8,6 +8,18 @@ on:
       - main
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
+          tag: v1
+          owner: "Eduard Gevorkyan"
   releases-matrix:
     name: Release Go Binary
     runs-on: ubuntu-latest
