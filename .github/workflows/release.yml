@@ -1,9 +1,13 @@
 name: Release Demo
 on:
   push:
+    tags:
+      - v1
     branches:
       - main
   pull_request:
+    tags:
+      - v1
     branches:
       - main
 
