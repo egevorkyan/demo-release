@@ -1,7 +1,7 @@
 name: Release Demo
 on:
   release:
-    types: [created]
+    types: [push]
 
 jobs:
   releases-matrix:
