@@ -6,4 +6,6 @@ func main() {
 	fmt.Println("Hello Actions!!!")
 
 	fmt.Println("New with tag!!!")
+
+	fmt.Println("Awesome!!!")
 }

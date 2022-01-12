@@ -9,7 +9,7 @@ on:
 
 jobs:
   create-release:
-    name: "Tagged Release"
+    name: "Create Release"
     runs-on: "ubuntu-latest"
     steps:
       - name: "Build & test"
