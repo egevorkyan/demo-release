@@ -22,7 +22,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           allowUpdates: true
-          tag: v1
           owner: "Eduard Gevorkyan"
           omitBody: true
           name: Demo
