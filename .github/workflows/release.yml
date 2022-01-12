@@ -24,6 +24,9 @@ jobs:
           allowUpdates: true
           tag: v1
           owner: "Eduard Gevorkyan"
+          omitBody: true
+          name: Demo
+          omitPrereleaseDuringUpdate: true
   releases-matrix:
     name: Release Go Binary
     runs-on: ubuntu-latest
