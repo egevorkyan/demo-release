@@ -5,5 +5,5 @@ import "fmt"
 func main() {
 	fmt.Println("Hello Actions!!!")
 
-	fmt.Println("New Push")
+	fmt.Println("New Demo")
 }
