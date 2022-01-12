@@ -1,7 +1,8 @@
 name: Release Demo
 on:
-  release:
-    types: [published, created, edited]
+  push:
+    branches:
+      - main
 
 jobs:
   releases-matrix:
