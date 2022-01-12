@@ -1,3 +1,4 @@
+name: Release Demo
 on:
   release:
     types: [push]
@@ -29,7 +30,7 @@ jobs:
           goarch: ${{ matrix.goarch }}
           #As go version I can use values: 1.13, 1.14, 1.15, 1.16, 1.17 or url https://dl.google.com/go/go1.13.1.linux-amd64.tar.gz
           goversion: 1.17
-          project_path: "./cmd/main/main.go"
+          project_path: "./cmd/main"
           binary_name: "demo"
           executable_compression: upx
           overwrite: TRUE
